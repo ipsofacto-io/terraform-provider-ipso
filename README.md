@@ -1,5 +1,7 @@
 # terraform-provider-ipso
 
+[![OpenSSF Scorecard](https://api.scorecard.dev/projects/github.com/ipsofacto-io/terraform-provider-ipso/badge)](https://scorecard.dev/viewer/?uri=github.com/ipsofacto-io/terraform-provider-ipso)
+
 Terraform and OpenTofu provider to manage ipso decisions, scopes and waivers as code.
 
 > Status: skeleton. The provider lands in a later change.
