@@ -2,11 +2,15 @@
 
 [![OpenSSF Scorecard](https://api.scorecard.dev/projects/github.com/ipsofacto-io/terraform-provider-ipso/badge)](https://scorecard.dev/viewer/?uri=github.com/ipsofacto-io/terraform-provider-ipso)
 
-Terraform and OpenTofu provider to manage ipso decisions, scopes and waivers as code.
+Terraform and OpenTofu provider for managing [ipso](https://github.com/ipsofacto-io/ipso) decisions, scopes, and waivers as code.
 
-> Status: skeleton. The provider lands in a later change.
+> Status: skeleton. Provider resources and data sources will land in an upcoming release.
 
-The Terraform Registry naming rule is why this provider has its own repository. It will manage decisions, scopes and waivers through the ipso API. The license is MPL-2.0, the ecosystem norm for Terraform providers.
+## Scope
+
+Once implemented, this provider will manage decisions, scopes, and waivers declaratively through the [ipso-server](https://github.com/ipsofacto-io/ipso-server) control-plane API.
+
+It lives in its own repository to satisfy Terraform Registry naming conventions and uses the MPL-2.0 license standard across the Terraform provider ecosystem.
 
 ## License
 
@@ -16,4 +20,4 @@ Copyright 2026 Luca Bertelli.
 
 ## Contributing
 
-Follow the contributor terms in [ipsofacto-io/.github](https://github.com/ipsofacto-io/.github/blob/main/CONTRIBUTING.md). Commits need a `Signed-off-by` trailer (`git commit -s`).
+Follow the contributor guidelines in [ipsofacto-io/.github](https://github.com/ipsofacto-io/.github/blob/main/CONTRIBUTING.md). All commits require a `Signed-off-by` trailer (`git commit -s`).
